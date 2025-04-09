@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+body {
+  background:    linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0)), url('static/img/bg.jpg') center/cover;
+  font-family: 'Sen', sans-serif;
+  transition: background-image 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  
+
+}
+.card {
+  background: transparent;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 7px 5px rgba(0, 0, 0, 0.281);
+  max-width: 400px;
+  width: 85%;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  backdrop-filter: blur(3px);
+}
+
+.card:hover {
+  scale: 1.05;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.emoji {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+#reloadBtn {
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+
+#emotion{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#cityInput {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+}
+
+#searchBtn{
+  padding: 0.5rem;
+  background-color: white;
+  color: 
+  black;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+#searchBtn:hover {
+  background-color: #010492;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+#searchBtn:active {
+  transform: scale(0.95);
+  transition: all 0.1s ease-in-out;
+}
+
+.made-by{
+  color: #010392;
+  a{
+    font-size: 1rem;
+    color: white;
+    background-color:  #010392e3;
+    padding: 0.5rem;
+    border-radius: 2rem;
+  }
+}
